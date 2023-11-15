@@ -1,0 +1,176 @@
+.container{
+    padding: 15px;
+    margin: 0px 60px;
+}
+
+#wrapper-header {
+    display: flex;
+    /* max-width: 1140px;
+    min-height: 345px; */
+}
+
+
+#wrapper-header-image {
+    flex: 30%; /* Chiều rộng 30% */
+}
+
+#wrapper-header-image img {
+    height: auto; /* Tự động tính toán chiều cao để giữ tỷ lệ khung hình */
+    max-width: 324.48px; /* Đặt chiều rộng tối đa của container */
+    
+}
+
+
+#wrapper-menu {
+    flex: 70%; /* Chiều rộng 70% */
+    display: flex;
+    justify-content: right; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+#wrapper-menu a {
+    margin: 0 50px; /* Khoảng cách giữa các nút */
+}
+
+#wrapper-menu a :hover {
+    color: #FFBD00;
+}
+
+#wrapper-menu span {
+    font-weight: 550;
+    font-size: 14px;
+    padding: 12px 24px; 
+    border-radius: 5px; 
+    display: inline-block;
+    background-color: #050505;
+    color: #fff; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+    
+}
+
+/* End css header */
+
+#wrapper-content {
+    margin-top: 20px; /* Gán một khoảng cách từ wrapper-header */
+}
+
+#wrapper-banner img {
+    max-width: 100%; /* Đặt chiều rộng tối đa của ảnh là 100% của container */
+    height: auto; /* Tự động tính toán chiều cao để giữ tỷ lệ khung hình */
+    display: block; /* Loại bỏ khoảng trắng dưới ảnh */
+    margin: 0 auto; /* Canh giữa ảnh trong container */
+}
+
+.text-box{
+    color: #7a7a7a;
+}
+
+
+#section-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Chia đều chiều rộng giữa hai cột */
+    margin-top: 30px;
+}
+
+
+#section-1-banner img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+#section-1-content{
+    line-height: 1.5;
+    padding-right: 30px;
+}
+
+
+#section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Chia đều chiều rộng giữa hai cột */
+    margin-top: 30px;
+}
+
+
+#section-2-banner img {
+    max-width: 100%; 
+    height: auto; 
+    padding-right: 30px;
+}
+
+#section-2-content{
+    line-height: 1.5;
+    padding-right: 30px;
+}
+
+
+#section-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Chia đều chiều rộng giữa hai cột */
+    margin-top: 30px;
+}
+
+
+#section-3-banner img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+#section-3-content{
+    line-height: 1.5;
+    padding-right: 30px;
+}
+
+#section-4 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+#section-4-title{
+    font-size: 50px;
+    font-weight: 550;
+    color: #FFBD00;
+    padding: 10px;
+}
+
+#wrapper-footer #footer-widgets{
+    background-color: #222222;
+    min-height: 50px;
+
+}
+
+
+#footer-bottom{
+    text-align: center;
+    padding: 15px;
+    color: #4a4a4a;
+    
+}
+
+#section-4 h4 {
+    margin-top: 20px;
+}
+
+#footer-bottom p{
+    font-size: 12px;
+}
+
+.up-to-line {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #050505;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.up-to-line i {
+    color: #fff;
+    font-size: 25px;
+    
+}

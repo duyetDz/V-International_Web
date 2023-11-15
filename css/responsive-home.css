@@ -1,0 +1,125 @@
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 15px;
+        margin: 0px auto;
+    }
+
+    #wrapper-header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #wrapper-header-image {
+        flex: 1 0 100%;
+        text-align: center;
+    }
+
+    #wrapper-header-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #wrapper-menu {
+        flex: 1 0 100%;
+        /* Chiếm toàn bộ chiều rộng và không co dãn */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    #wrapper-menu a {
+        flex: 1 0 100%;
+        /* Chiếm toàn bộ chiều rộng và không co dãn */
+        box-sizing: border-box;
+        padding: 15px;
+        text-align: center;
+    }
+
+    #wrapper-menu span {
+        font-weight: 500;
+        padding: 12px 24px;
+        border-radius: 5px;
+        display: inline-block;
+        background-color: #050505;
+        color: #fff;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+
+    #section-1 {
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        /* Chia đều chiều rộng giữa hai cột */
+        margin-top: 40px;
+    }
+
+
+    #section-1-banner img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    #section-1-content {
+        line-height: 1.5;
+        padding-right: 0px;
+    }
+
+
+
+    #section-2 {
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        /* Chia đều chiều rộng giữa hai cột */
+        margin-top: 40px;
+        padding: 0px;
+    }
+
+
+    #section-2-banner img {
+        max-width: 100%;
+        height: auto;
+        padding-right: 0px;
+    }
+
+    #section-2-content {
+        line-height: 1.5;
+        padding-right: 0px;
+        margin-top: 20px;
+    }
+
+
+    #section-3 {
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        /* Chia đều chiều rộng giữa hai cột */
+        margin-top: 40px;
+        padding: 0px;
+    }
+
+
+    #section-3-banner img {
+        max-width: 100%;
+        height: auto;
+        padding: 0px;
+        margin-top: 40px;
+    }
+
+    #section-3-content {
+        line-height: 1.5;
+        padding-right: 0px;
+    }
+
+    h4{
+        font-weight: 550;
+        font-size: 22px;
+    }
+
+    #section-4 h4 {
+        margin-top: 20px;
+    }
+
+}
