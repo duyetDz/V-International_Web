@@ -13,7 +13,7 @@ body {
     color:#fff;
     background-color: #000000;
 }
-ol, ul {
+ol {
     list-style: none;
 }
 blockquote, q {
@@ -66,7 +66,7 @@ html[xmlns] .clearfix {
 }
 h1, h2, h3, h4, h5, h6{ font-weight: normal;}
 
-p{
+li,p{
     font-size: 14px;
 }
 

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/abou-us.css">
+    <link rel="stylesheet" href="css/responsive-about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <div id="wrapper-header">
+        <a href="/" id="wrapper-header-image">
+            <img src="images/Zenith-Global_Black.png" alt="">
+        </a>
+
+
+        <div id="wrapper-menu">
+            <a href="/about-us.html" id="wrapper-span">
+                <span>About Us</span>
+            </a>
+            <a href="/solutions.html" id="wrapper-span">
+                <span>Solutions</span>
+            </a>
+            <a href="/connect.html" id="wrapper-span" style="margin :0px 30px;">
+                <span>Connect</span>
+            </a>
+        </div>
+
+    </div>
+    <div id="wrapper">
+        <div id="wrapper-content">
+            <div id="wrapper-banner">
+                <img src="images/Globe-v2.jpg" alt="">
+            </div>
+
+            <div id="section-1">
+                <h4>About Zenith Global</h4>
+                <p>Zenith Global is a strategic consulting firm established in Malaysia dedicated to helping clients
+                    globally. Since 2016, Zenith Global has been serving international clients in the various industries
+                    such as finance, semi-conductors, construction and energy to develop a deep understanding of Asian
+                    markets.</p>
+                <p>To expand our expertise and coverage beyond Southeast Asia, Zenith Global is devoting resources into
+                    the North Asia to ensure that we are able to provide quality and immediate services for our clients’
+                    needs.</p>
+                <p>Through our range of business strategy consulting, analysis, advisory and management services, Zenith
+                    Global is committed to helping clients develop a clear strategy towards achieving business goals.
+                </p>
+            </div>
+
+
+            <div id="section-2">
+                <h1 id="section-2-title" class="text-center text-warning">Your results measure our success</h1>
+                <p>Our team at Zenith Global is always passionate about understanding emerging issues across the
+                    different industries. Our approach to every challenge is to reduce risks for our clients by
+                    equipping them with valuable insights and action plan. Whether you are looking to minimize risk or
+                    taking a leap into a new market, Zenith Global is your expert on the ground.</p>
+            </div>
+        </div>
+
+
+
+        <span class="up-to-line"><i class="fa fa-angle-up" aria-hidden="true"></i></span>
+
+
+    </div>
+
+    <div id="wrapper-footer">
+        <div id="footer-widgets" class="container-fluid"></div>
+        <div id="footer-bottom">
+            <p>Copyright 2023 - Zenith Global</p>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var upToLineButton = document.querySelector(".up-to-line");
+            window.addEventListener("scroll", function () {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    upToLineButton.style.display = "block";
+                } else {
+                    upToLineButton.style.display = "none";
+
+                }
+            });
+
+            upToLineButton.addEventListener("click", function () {
+
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            });
+        });
+    </script>
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .container {
         padding: 15px;
         margin: 0px auto;
@@ -122,4 +122,16 @@
         margin-top: 20px;
     }
 
+    #footer-widgets{
+        max-width: 100%;
+    }
+
+}
+
+
+@media (min-width: 1500px) {
+    #wrapper ,#wrapper-header {
+        margin: 0px auto;
+        max-width: 1140px;
+    }
 }

@@ -1,0 +1,172 @@
+.container {
+    padding: 15px;
+    margin: 0px 60px;
+}
+
+#wrapper-header {
+    display: flex;
+}
+
+
+#wrapper-header-image {
+    flex: 30%;
+    padding: 10px;
+}
+
+#wrapper-header-image img {
+    height: auto;
+    /* Tự động tính toán chiều cao để giữ tỷ lệ khung hình */
+    max-width: 324.48px;
+    /* Đặt chiều rộng tối đa của container */
+
+}
+
+
+#wrapper-menu {
+    flex: 70%;
+    /* Chiều rộng 70% */
+    display: flex;
+    justify-content: right;
+    /* Căn giữa theo chiều ngang */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+}
+
+#wrapper-menu a {
+    margin: 0 50px;
+    /* Khoảng cách giữa các nút */
+}
+
+#wrapper-menu a :hover {
+    color: #FFBD00;
+}
+
+#wrapper-menu span {
+    font-weight: 550;
+    font-size: 14px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #050505;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+
+}
+
+/* End css header */
+
+#wrapper-content {
+    margin-top: 20px;
+    /* Gán một khoảng cách từ wrapper-header */
+}
+
+#wrapper-content {
+    padding: 10px;
+}
+
+#wrapper-banner img {
+    max-width: 100%;
+    /* Đặt chiều rộng tối đa của ảnh là 100% của container */
+    height: auto;
+    /* Tự động tính toán chiều cao để giữ tỷ lệ khung hình */
+    display: block;
+    /* Loại bỏ khoảng trắng dưới ảnh */
+    margin: 0 auto;
+    /* Canh giữa ảnh trong container */
+}
+
+.text-box {
+    color: #7a7a7a;
+}
+
+
+#section-1 {
+    margin-top: 30px;
+    line-height: 2;
+}
+
+#section-1 h4 {
+    font-size: 23px;
+}
+
+#section-1 p {
+    margin-top: 25px;
+}
+
+#line-height-1 {
+    line-height: 1px;
+}
+
+#section-2 {
+    line-height: 2;
+}
+
+
+#section-2-title {
+    color: #FFBD00;
+    font-family: "Roboto", Sans-serif;
+    font-size: 49px;
+    font-weight: 600;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#wrapper-footer {
+    margin-top: 100px;
+}
+
+
+#wrapper-footer #footer-widgets {
+    background-color: #222222;
+    min-height: 50px;
+    padding: 30px;
+
+}
+
+
+#footer-bottom {
+    text-align: center;
+    padding: 15px;
+    color: #4a4a4a;
+
+}
+
+
+#footer-bottom p {
+    font-size: 12px;
+}
+
+.up-to-line {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00000066;
+    padding: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.up-to-line:hover{
+    background-color: rgba(0,0,0,.8);
+}
+
+.up-to-line:active {
+    border: 1px solid #fff;
+
+}
+
+.up-to-line i {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+.visible {
+    opacity: 1;
+}
