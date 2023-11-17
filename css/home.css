@@ -3,11 +3,6 @@
     max-width: 1140px;
 }
 
-.container {
-    padding: 15px;
-    margin: 0px 60px;
-}
-
 #wrapper-header {
     display: flex;
 }
@@ -20,9 +15,7 @@
 
 #wrapper-header-image img {
     height: auto;
-    /* Tự động tính toán chiều cao để giữ tỷ lệ khung hình */
     max-width: 324.48px;
-    /* Đặt chiều rộng tối đa của container */
 
 }
 

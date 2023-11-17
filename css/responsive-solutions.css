@@ -5,7 +5,6 @@
     }
 }
 
-
 @media (max-width: 768px) {
 
     #wrapper-header {
@@ -50,6 +49,9 @@
         transition: background-color 0.3s ease;
     }
 
+    #section-3,#section-4{
+        display: block;
+    }
     
 
     #footer-widgets{
